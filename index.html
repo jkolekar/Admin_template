@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Q Admin</title>
+
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme style -->
+    <link href="css/theme_style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="app">
+    <!-- <h1>Admin Template</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p> -->
+    <div class="aside">
+      <div class="brand">
+        <div class="logo-container">
+          <a href="#">
+            <div class="logo-img">
+              <img src="img/logo.png"  alt="">
+              <h4 class="logo-text">Admin</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nav-container">
+        <ul class="sidebar-menu scrollable pos-r list-unstyled">
+          <li class="nav-item mt-30 active">
+            <a class="sidebar-link" href="#">
+              <span class="icon-holder">
+                <i class="fa fa-dashboard"></i>
+              </span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="email.html">
+              <span class="icon-holder">
+                <i class="fa fa-users"></i>
+              </span>
+              <span class="title">Accounts</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="compose.html">
+              <span class="icon-holder">
+                <i class="fa fa-list-ol"></i>
+              </span>
+              <span class="title">Sessions</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="calendar.html">
+              <span class="icon-holder">
+                <i class="fa  fa-id-card-o"></i>
+              </span>
+              <span class="title">Memberships</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class='sidebar-link' href="chat.html">
+              <span class="icon-holder">
+                <i class="fa fa-sitemap"></i>
+              </span>
+              <span class="title">My Branches</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle" >
+              <span class="icon-holder">
+                <i class="fa fa-file-text-o"></i>
+              </span>
+              <span class="title">Assesments</span>
+              <span class="arrow">
+                <i class="ti-angle-right"></i>
+              </span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class='sidebar-link' href="basic-table.html">Menu One</a>
+              </li>
+              <li>
+                <a class='sidebar-link' href="datatable.html">Menu Two</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle" href="javascript:void(0);">
+              <span class="icon-holder">
+                  <i class="fa fa-line-chart"></i>
+                </span>
+              <span class="title">Reports</span>
+              <span class="arrow">
+                  <i class="fa fa-angle-right"></i>
+              </span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="">Menu one</a>
+              </li>
+              <li>
+                <a href="">Menu Two</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle" href="javascript:void(0);">
+              <span class="icon-holder">
+                <i class="fa fa-tasks"></i>
+              </span>
+              <span class="title">Multiple Levels</span>
+              <span class="arrow">
+                <i class="fa fa-angle-right"></i>
+              </span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0);">
+                  <span>Menu Item</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0);">
+                  <span>Menu Item</span>
+                  <span class="arrow">
+                    <i class="ti-angle-right"></i>
+                  </span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="javascript:void(0);">Menu Item</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">Menu Item</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="header">
+        <div class="header-container">
+          <ul class="list-inline pull-left">
+            <li class="sidebar-toggle"> <a href="#"><span class="fa fa-bars"></span></a> </li>
+          </ul>
+
+          <ul class="list-inline pull-right">
+            <li> 00:02:33 </li>
+            <li> <a href="#"></span></a> </li>
+            <li> <a href="#"><span class="fa fa-user-o"></span><span>Become An Owner</span></a> </li>
+            <li> <a href="#"><span class="fa fa-avatar"></span><span>Sagar Mathapati</span><span class="arrow"><i class="fa fa-angle-down"></i>
+            </span></a> </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="row">
+          <div class="col-md-4">
+            <button type="button" class="btn btn-danger btn-block" name="button">Add User</button>
+          </div>
+          <div class="col-md-4">
+            <button type="button" class="btn btn-primary btn-block" name="button">Add Batches</button>
+          </div>
+          <div class="col-md-4">
+            <button type="button" class="btn btn-success btn-block" name="button">Add Memberships</button>
+          </div>
+        </div>
+        <div class="row mt-30">
+          <div class="col-md-8">
+            <div class="portlate">
+              <div class="portlate-header">
+                <h4>Todays Session</h4>
+              </div>
+              <div class="portlate-body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-30">
+          <div class="col-md-12">
+            <div class="portlate">
+              <div class="portlate-header">
+                <h4>Datatables</h4>
+              </div>
+              <div class="portlate-body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p></p>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      // ٍSidebar Toggle
+      $('.sidebar-toggle').on('click', e => {
+        $('.app').toggleClass('is-collapsed');
+        e.preventDefault();
+      });
+
+    </script>
+  </body>
+</html>
