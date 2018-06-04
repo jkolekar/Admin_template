@@ -27,7 +27,7 @@ a:hover {
   margin-top: 30px;
 }
 
-.active a {
+.theme-color {
   color: #f74e05;
 }
 
@@ -45,6 +45,29 @@ a:hover {
   color: #fff;
 }
 
+.fort {
+  background-color: #90759e;
+  color: #fff;
+}
+.spcl {
+  background-color: #ffae6e;
+  color: #fff;
+}
+
+.othr {
+  background-color: #618a61;
+  color: #fff;
+}
+
+.t-lg-btn {
+  font-size: 18px;
+  padding: 15px;
+}
+
+.active .sidebar-link {
+  background-color: #f74e05;
+  color: #fff;
+}
 /* side menu */
 .aside {
     background-color: #fff;
@@ -396,5 +419,9 @@ a:hover {
 
   .is-collapsed .main .header {
     width: 100%;
+  }
+
+  .m-top-30 {
+      margin-top: 30px;
   }
 }
